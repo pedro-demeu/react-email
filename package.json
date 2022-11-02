@@ -1,0 +1,29 @@
+{
+  "name": "react-email",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react && cd dist && node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@react-email/button": "0.0.3",
+    "@react-email/html": "0.0.2",
+    "@react-email/render": "0.0.2",
+    "@react-email/text": "0.0.2",
+    "nodemailer": "^6.8.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tsconfig/vite-react": "^1.0.1",
+    "@types/nodemailer": "^6.4.6",
+    "@types/react": "^18.0.24",
+    "tsup": "^6.3.0",
+    "typescript": "^4.8.4"
+  }
+}
