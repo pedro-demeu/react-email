@@ -15,6 +15,7 @@
     "@react-email/avatar": "0.0.2",
     "@react-email/button": "0.0.3",
     "@react-email/container": "0.0.4",
+    "@react-email/head": "0.0.2",
     "@react-email/html": "0.0.2",
     "@react-email/render": "0.0.2",
     "@react-email/text": "0.0.2",

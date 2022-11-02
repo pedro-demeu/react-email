@@ -55,6 +55,13 @@
   dependencies:
     react "18.2.0"
 
+"@react-email/head@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@react-email/head/-/head-0.0.2.tgz#a14afa9c1d836b9fc865560585ed8b68c05d8e33"
+  integrity sha512-DLPDRPsqxOKTUYMy7TouldjGZ6/ZAnfmQuRFceliL2YyP4QPQyR+cWaYUItw026+wIJ4eNqLmVgb6M6UOFzB9w==
+  dependencies:
+    react "18.2.0"
+
 "@react-email/html@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@react-email/html/-/html-0.0.2.tgz#a597569b3772630e346213d766bc310a88674291"

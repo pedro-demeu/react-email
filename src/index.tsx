@@ -11,7 +11,9 @@ const transporter = nodemail.createTransport({
   },
 });
 
-const emailHtml = render(<Email url="https:linkedin.com/in/pdemeu" />);
+const emailHtml = render(
+  <Email url="https://github.com/pedro-demeu/react-email" />
+);
 
 const options = {
   from: "pdemeu@dogcode.dev",
